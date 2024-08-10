@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #f1f1f1;
+    width: 100%;
+    top: 0;
+    /* box-shadow: 0 0 10px black; */
+}
+
+#contact-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(223, 223, 223);
+    background-color: white;
+    padding: 10px 2%;
+}
+
+#nav-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+   
+}
+
+#menu-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#menu-links div a{
+    font-size: small;
+}
+
+.bi-caret-down-fill,
+.bi-person-check,
+.bi-question-diamond{
+    font-size: 18px;
+}
+
+#sign-btn{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#tel-info{
+    background-color: #f1f1f1;
+    padding: 12px 100px;
+    border-bottom-left-radius: 100px;
+   
+}
+
+#mail-info{
+    padding: 10px 150px;
+}
+
+.bi-instagram,
+.bi-envelope,
+.bi-whatsapp,
+.bi-telephone{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#cartEl{
+    cursor: pointer;
+    position: relative;
+}
+
+.bi-cart4{
+    font-size: 30px;
+    padding: 5px
+}
+
+#cart-amount{
+    display: block;
+    position: absolute;
+    top: -15;
+    left: -10;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding:1px 3px;
+}
+
+#lang{
+    padding:12px 5px;
+    background-color: #f1f1f1;
+    width: fit-content;
+}
+
+#lang select{
+    border: none;
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+#name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+section form{
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+select ,
+section #form input{
+    border: solid 1px #0ef;
+    padding: 12px 25px;
+    margin: 5px;
+    width: 550px;
+    outline: none;
+    border-radius: 8px;
+}
+
+#pivacy{
+    width: 550px;
+    margin: auto;
+}
+
+#pivacy span{
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+#signupbutton{
+    width: 550px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    margin: 20px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#sign-up-btn{
+    padding: 10px;
+    margin: 20px 5px;
+    font-size: 35px;
+    color: hsla(200, 100%, 20%);
+}
